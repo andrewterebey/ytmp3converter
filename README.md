@@ -1,8 +1,8 @@
-# React + Vite
+Youtube to MP3 converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Used Vite and React Template
 
-Currently, two official plugins are available:
+used rapid API for the key, host, and url
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
