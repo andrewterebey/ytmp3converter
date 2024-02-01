@@ -101,8 +101,21 @@ body {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.download_button {
-  color: white;
+.download_btn {
+  color: white; /* This sets the text color to white */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  border-radius: 5px; /* This makes the corners rounded */
+  text-decoration: none; /* This removes the underline from the link */
+  font-weight: bold; /* Makes the font bold */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  text-decoration: underline;
+}
+
+.download_btn:hover {
+  background-color: #16161b; /* Slightly darker shade when hovered for a nice effect */
+  text-decoration: none; /* Ensures that the underline doesn't reappear on hover */
+  color: white; /* Keeps the text color white when hovered */
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
